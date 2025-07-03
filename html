@@ -2,36 +2,57 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <title>我的作品集</title>
+  <title>sea 泛起涟漪 · 作品集</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 引用外部 CSS 文件 -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main>
     <!-- 个人简介 -->
-    <section>
+    <section class="intro">
       <h1>sea 泛起涟漪</h1>
-      <p>20岁 工业设计 服务设计</p>
+      <!-- 替换为你的头像图片 -->
+      <img src="images/avatar.jpg" alt="sea 头像" class="avatar">
+      <p>20岁 · 工业设计 · 服务设计</p>
     </section>
 
     <!-- 项目列表 -->
-    <section>
+    <section class="projects">
       <h2>项目列表</h2>
       <ul class="project-list">
-        <li><a href="project1.html">项目一名称</a></li>
-        <li><a href="project2.html">项目二名称</a></li>
-        <!-- 可继续添加 -->
+        <!-- 每个项目一个 li -->
+        <li>
+          <a href="project1.html">
+            <!-- 替换为你的项目封面图 -->
+            <img src="images/project1.jpg" alt="项目一缩略图" class="project-thumb">
+            <span>项目一名称</span>
+          </a>
+        </li>
+        <li>
+          <a href="project2.html">
+            <img src="images/project2.jpg" alt="项目二缩略图" class="project-thumb">
+            <span>项目二名称</span>
+          </a>
+        </li>
+        <!-- 如需添加更多项目，继续复制 li -->
       </ul>
     </section>
 
     <!-- 联系方式 -->
-    <section>
+    <section class="contact">
       <h2>联系方式</h2>
       <ul class="contact-list">
+        <li><a href="mailto:your@email.com">your@email.com</a></li>
         <li><a href="https://github.com/your-github-username" target="_blank">GitHub</a></li>
-        <!-- 可添加邮箱/微信/其他方式 -->
+        <li><a href="https://www.instagram.com/yourname" target="_blank">Instagram</a></li>
+        <!-- 可继续添加其他社交链接 -->
       </ul>
     </section>
   </main>
+
+  <footer>
+    <p>&copy; 2025 sea 泛起涟漪</p>
+  </footer>
 </body>
 </html>
